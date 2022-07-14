@@ -18,6 +18,10 @@ Install anaconda on your machine, and run the following cell on terminal/command
 ```
 conda create -n SocialDistancingDetector jupyter python opencv imutils scipy numpy pandas matplotlib
 ```
+Activate created environment.
+```
+conda activate SocialDistancingDetector
+```
 
 ## Running & Demo
 Open Terminal run the following under actvated environment with preinstalled required libs and packages.
