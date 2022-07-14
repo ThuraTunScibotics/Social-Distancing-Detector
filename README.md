@@ -12,5 +12,14 @@
     * Put number of violations status  on the resultant frame
 4. Show and Write frames for output video
 
+## Running & Demo
+Open Terminal run the following under actvated environment with preinstalled libs and packages.
+```python
+python social_distance_detector.py --input pedestrians.mp4 --output output.avi
+```
+Demo
+![Demo](https://github.com/ThuraTunScibotics/Social-Distancing-Detector/blob/main/output.gif)
+
 ## Reference
+https://analyticsindiamag.com/covid-19-computer-vision/
 https://pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
