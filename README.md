@@ -4,7 +4,7 @@
 ## Background - One of the tasks for Computer Vision internship at [The Sparks Foundation](https://internship.thesparksfoundation.info/).
 
 ## Algorithm
-1. Detection of people from input frame using YOLOv3
+1. Detection of people from input frame using pretrained [YOLOv3 model](https://github.com/ThuraTunScibotics/Social-Distancing-Detector/tree/main/yolo-coco) which is trained on coco dataset.
 2. Compute the Euclidean distance between all pairs of the centroid (pairwise distances)
 3. Check the distance matrix < configured distance
     * if distance < configured_distance, add distance_coordinate to violation set
